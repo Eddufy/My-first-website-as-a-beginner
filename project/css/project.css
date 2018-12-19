@@ -1,0 +1,126 @@
+*{
+    margin: 0%
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0%
+}
+.toptopnav{
+    padding: 14px 14px;
+    font-size: 17px;
+
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: palevioletred;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: rgb(6, 247, 26);
+    color: black;
+}
+.topnav a.goat {
+    background-color: #F7B906;
+    color: teal;
+}
+.head{
+    text-align: center; 
+}
+.bottomnav {
+    background-color: thistle;
+    overflow: hidden;
+}
+.explain{
+    color: black;
+}
+div.hero-image{
+    background-image: url(../images/one.JPG);
+    height: 150%;
+    background-position: center;
+    background-attachment: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div.hero-text{
+ text-align: center;
+ position: absolute;
+ top: 30%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: rgb(255, 0, 237);   
+}
+div.hero-text h1 {
+    font-size: 1.5cm;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.leftpane{
+    width: 25%;
+    height: 50%;
+    float: left;
+    background-color: lightskyblue;
+    border-collapse: collapse;
+}
+.rightpane{
+    width: 75%;
+    height: 50%;
+    position: relative;
+    float: right;
+    background-color:rgb(242, 257, 250);
+    border-collapse: collapse;
+}
+.toppane{
+    width: 100%;
+    height: 50%;
+    border-collapse: collapse;
+    background-color: violet;
+}
+.bottompane{
+    width: 100%;
+    height: 50%;
+    border-collapse: collapse;
+    background-color:lightgrey;
+}
+.right{
+    float: right;
+    margin: 5px;
+}
+
+#letsgo{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+.wizkid{
+    padding: 16px;
+}
+@media (min-width:320px){
+
+}
+@media (min-width:480px){
+
+}
+@media (min-width:600px){
+
+}
+@media (min-width:801px){
+
+}
+@media (min-width:1025px){
+
+}
+@media (min-width:1281px){
+    
+}
